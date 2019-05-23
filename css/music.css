@@ -1,0 +1,25 @@
+#equipment>div>div:nth-child(1)>img, #equipment>div>div:nth-child(2)>img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+iframe {
+    margin: 0 auto;
+    padding-bottom: 12px;
+}
+
+@media screen and (max-width: 767px) {
+    iframe {
+        width: 100%;
+    }
+
+    #nien {
+        width: 100%;
+    }
+
+    .row, .col-sm {
+        width: 100%;
+        padding: 0;
+    }
+}

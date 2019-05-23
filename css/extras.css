@@ -1,0 +1,47 @@
+form {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    color: white;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-row input, .form-row select {
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.form-row textarea {
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+}
+
+.form-row input, .form-row textarea, 
+.form-row select, .form-row button {
+    background: #444;
+    color: white;
+}
+
+#submit, #clear {
+    background: #444;
+    color: white;
+    width: 30%;
+
+    margin-bottom: 20px;
+}
